@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cristina Garrido · Desarrolladora Full Stack Junior</title>
+  <meta name="description" content="Portfolio de Cristina Garrido, desarrolladora Full Stack Junior con 15 años de experiencia en administración y gestión de equipos.">
+
+  <!-- Tipografía -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+  <!-- ========== CABECERA / HERO ========== -->
+  <header class="hero" id="inicio">
+
+    <!-- Menú -->
+    <nav class="nav">
+      <a href="#inicio" class="nav__logo">Cristina Garrido</a>
+      <ul class="nav__links">
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#tecnologias">Tecnologías</a></li>
+        <li><a href="#experiencia">Experiencia</a></li>
+        <li><a href="#formacion">Formación</a></li>
+      </ul>
+      <a href="#contacto" class="btn btn--light btn--small">Contacto <span aria-hidden="true">→</span></a>
+    </nav>
+
+    <div class="hero__content">
+      <div class="hero__text">
+        <p class="tag tag--light">Desarrolladora Full Stack Junior</p>
+        <h1 class="hero__title">Cristina Garrido</h1>
+        <p class="hero__subtitle">De la gestión de equipos y procesos al desarrollo web.</p>
+        <p class="hero__intro">Durante 15 años he organizado procesos, datos y equipos. Ahora construyo las herramientas que los hacen funcionar.</p>
+
+        <div class="hero__actions">
+          <a href="assets/cv/CV_Cristina_Garrido_Full_Stack.pdf" class="btn btn--light" download>Descargar CV <span aria-hidden="true">↓</span></a>
+          <!-- PENDIENTE: poner aquí las direcciones reales de GitHub y LinkedIn -->
+          <a href="#" class="btn-icon" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2.1c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.7 18.3 5 18.3 5c.7 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5z"/></svg>
+          </a>
+          <a href="#" class="btn-icon" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4v11H3zM9.5 9.5h3.8v1.5h.1c.5-1 1.8-1.9 3.7-1.9 4 0 4.7 2.6 4.7 6v5.4h-4v-4.8c0-1.1 0-2.6-1.6-2.6s-1.8 1.2-1.8 2.5v4.9h-4z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero__photo">
+        <img src="assets/img/profile/foto-perfil.jpg" alt="Retrato de Cristina Garrido" width="720" height="900">
+        <div class="float-card float-card--top">
+          <span class="float-card__num">15</span>
+          <span class="float-card__txt">años de experiencia<br>en gestión</span>
+        </div>
+        <div class="float-card float-card--bottom">
+          <span class="dot" aria-hidden="true"></span>
+          Bootcamp Full Stack · NEOLAND
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ========== CIFRAS ========== -->
+    <section class="stats" aria-label="Datos destacados">
+      <div class="stat"><span class="stat__num">15+</span><span class="stat__label">Años en administración</span></div>
+      <div class="stat"><span class="stat__num">10</span><span class="stat__label">Personas coordinadas</span></div>
+      <div class="stat"><span class="stat__num">5</span><span class="stat__label">Años como encargada</span></div>
+      <div class="stat"><span class="stat__num">1</span><span class="stat__label">Nuevo camino: el código</span></div>
+    </section>
+
+    <!-- ========== SOBRE MÍ ========== -->
+    <section class="section section--tight-bottom about" id="sobre-mi">
+      <div class="about__head">
+        <p class="tag">Sobre mí</p>
+        <h2 class="title">De la administración<br><span class="title--soft">al desarrollo web</span></h2>
+      </div>
+      <div class="about__text">
+        <p>Soy desarrolladora full stack junior y vengo del mundo de la administración. Durante más de diez años trabajé en una academia de formación, donde empecé como auxiliar administrativa y terminé dirigiendo el departamento, con un equipo de diez personas a mi cargo.</p>
+        <p>En ese tiempo trabajé a diario con CRM, bases de datos y procesos que había que mejorar. Muchas veces me encontraba pensando en cómo podían funcionar mejor esas herramientas, y esa curiosidad acabó llevándome a la programación.</p>
+        <p>Me he formado en desarrollo web full stack en NEOLAND, trabajando con JavaScript, React, Node.js y MongoDB. Busco mi primera oportunidad como desarrolladora en un equipo donde pueda seguir aprendiendo y aportar lo que ya sé hacer bien: organizarme, entender lo que necesita el usuario y resolver problemas.</p>
+      </div>
+    </section>
+
+    <!-- Separador -->
+    <div class="divider" aria-hidden="true"></div>
+
+    <!-- ========== TECNOLOGÍAS ========== -->
+    <section class="section section--tight-top" id="tecnologias">
+      <p class="tag">Tecnologías</p>
+      <h2 class="title">Mi stack<br><span class="title--soft">y herramientas</span></h2>
+
+      <div class="bento">
+        <article class="card card--accent">
+          <h3>Frontend</h3>
+          <ul class="chips"><li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>React</li></ul>
+        </article>
+        <article class="card card--dark">
+          <h3>Backend</h3>
+          <ul class="chips"><li>Node.js</li><li>MongoDB</li></ul>
+        </article>
+        <article class="card card--half">
+          <h3>Herramientas</h3>
+          <ul class="chips"><li>Git</li><li>GitHub</li><li>VS Code</li><li>Claude Code</li></ul>
+        </article>
+        <article class="card card--half">
+          <h3>IA aplicada al desarrollo</h3>
+          <ul class="chips"><li>ChatGPT</li><li>Claude</li></ul>
+        </article>
+        <article class="card card--full">
+          <h3>Ofimática y gestión</h3>
+          <ul class="chips"><li>Word</li><li>Excel</li><li>PowerPoint</li><li>Canva</li><li>HubSpot</li><li>Podio</li><li>Sesame</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- ========== LO QUE APORTO ========== -->
+    <section class="section section--tinted" id="aporto">
+      <p class="tag">Lo que aporto</p>
+      <h2 class="title">Experiencia real<br><span class="title--soft">que suma al código</span></h2>
+
+      <div class="values">
+        <article class="value">
+          <span class="value__n">01</span>
+          <h3>Visión de usuario</h3>
+          <p>He estado al otro lado: he usado a diario CRM y herramientas de gestión y sé lo que hace que una aplicación sea útil o frustrante.</p>
+        </article>
+        <article class="value">
+          <span class="value__n">02</span>
+          <h3>Datos y procesos</h3>
+          <p>Facturación, cobros, bases de datos e inventarios. Estoy acostumbrada a la precisión y a la lógica de los flujos de trabajo.</p>
+        </article>
+        <article class="value">
+          <span class="value__n">03</span>
+          <h3>Mejora de procesos</h3>
+          <p>Diseñé protocolos internos para que el equipo trabajara de forma más eficiente, que es la misma mentalidad con la que abordo el código.</p>
+        </article>
+        <article class="value">
+          <span class="value__n">04</span>
+          <h3>Trabajo en equipo y comunicación</h3>
+          <p>He coordinado a diez personas y he hecho de enlace entre departamentos, así que sé explicar, escuchar y cumplir plazos.</p>
+        </article>
+        <article class="value">
+          <span class="value__n">05</span>
+          <h3>Resolución de incidencias</h3>
+          <p>Años gestionando reclamaciones y problemas del aula virtual me han enseñado a analizar con calma y buscar la causa.</p>
+        </article>
+        <article class="value value--list">
+          <h3>Competencias</h3>
+          <ul>
+            <li>Liderazgo y gestión de equipos</li>
+            <li>Mejora y optimización de procesos</li>
+            <li>Resolución de incidencias</li>
+            <li>Gestión de bases de datos y archivos</li>
+            <li>Comunicación interdepartamental</li>
+            <li>Orientación al cliente</li>
+            <li>Organización, plazos y prioridades</li>
+            <li>Atención al detalle y precisión</li>
+            <li>Trabajo en equipo</li>
+            <li>Aprendizaje rápido y adaptación</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- ========== EXPERIENCIA ========== -->
+    <section class="section" id="experiencia">
+      <p class="tag">Experiencia</p>
+      <h2 class="title">Trayectoria<br><span class="title--soft">profesional</span></h2>
+
+      <div class="timeline">
+
+        <article class="job">
+          <div class="job__meta">
+            <span class="job__date">2021 – 2026</span>
+            <span class="job__company">Innova Academia</span>
+          </div>
+          <div class="job__body">
+            <h3>Encargada de Administración</h3>
+            <ul>
+              <li>Coordinación y supervisión de un equipo de 10 personas y enlace con el resto de departamentos.</li>
+              <li>Creación de protocolos internos para mejorar la eficiencia del trabajo.</li>
+              <li>Revisión del trabajo diario del equipo, seguimiento de objetivos y cálculo de comisiones del equipo comercial.</li>
+              <li>Responsable de la atención al alumnado (presencial, telefónica y por email) y de la gestión de reclamaciones.</li>
+              <li>Apoyo al departamento jurídico en la revisión de solicitudes de baja.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="job">
+          <div class="job__meta">
+            <span class="job__date">2016 – 2021</span>
+            <span class="job__company">Innova Academia</span>
+          </div>
+          <div class="job__body">
+            <h3>Auxiliar Administrativa</h3>
+            <div class="job__areas">
+              <div>
+                <h4>Administración y facturación</h4>
+                <ul>
+                  <li>Facturación, cobros y seguimiento de la documentación contractual del alumnado mediante el CRM de la empresa.</li>
+                  <li>Arqueo de caja diario y mensual, y registro y actualización de bases de datos.</li>
+                  <li>Seguimiento de convocatorias, plazos y fechas de examen; organización de calendarios y horarios.</li>
+                </ul>
+              </div>
+              <div>
+                <h4>Recursos humanos</h4>
+                <ul>
+                  <li>Gestión de contratos, altas y bajas, control horario, ausencias y vacaciones.</li>
+                  <li>Acogida de nuevas incorporaciones y entrega de la documentación inicial.</li>
+                  <li>Orientación y acompañamiento a empleados en la gestión laboral, resolución de consultas sobre sus contratos y convenios y seguimiento de sus objetivos mensuales.</li>
+                </ul>
+              </div>
+              <div>
+                <h4>Atención al alumnado</h4>
+                <ul>
+                  <li>Presentación del aula virtual a nuevos alumnos aportando las indicaciones de inicio de la formación y gestión de temarios.</li>
+                  <li>Información y orientación general y resolución de incidencias del aula virtual.</li>
+                </ul>
+              </div>
+              <div>
+                <h4>Compras e inventario</h4>
+                <ul>
+                  <li>Gestión de pedidos, recepción de mercancía y control de albaranes y facturas de proveedores.</li>
+                  <li>Control de stock e inventario de material y equipos informáticos.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="job">
+          <div class="job__meta">
+            <span class="job__date">2007 – 2012</span>
+            <span class="job__company">Experiencia anterior</span>
+          </div>
+          <div class="job__body">
+            <h3>Recepción y agencia de viajes</h3>
+            <p>Recepcionista en IIR España (2009 – 2012). Agente de viajes en Viajes Aira y Viajes Marsans (2007 – 2008), con mantenimiento y actualización diaria de ofertas en la web, atención al cliente y ventas.</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ========== FORMACIÓN ========== -->
+    <section class="section section--tinted" id="formacion">
+      <p class="tag">Formación</p>
+      <h2 class="title">Aprendizaje<br><span class="title--soft">continuo</span></h2>
+
+      <div class="grid-3">
+        <article class="course course--main">
+          <span class="course__year">2026</span>
+          <h3>Bootcamp de Desarrollo Web Full Stack</h3>
+          <p class="course__school">NEOLAND</p>
+          <p>HTML5, CSS3, JavaScript, React, Node.js, MongoDB, Git y herramientas de IA.</p>
+        </article>
+        <article class="course">
+          <span class="course__year">2026</span>
+          <div class="course__item">
+            <h3>Creación de páginas web (HTML5 y CSS3)</h3>
+            <p class="course__school">Ki-works</p>
+          </div>
+          <div class="course__item">
+            <h3>Gestión laboral TIC</h3>
+            <p class="course__school">Ineaf</p>
+            <p>Sistema RED, Siltra, Delt@ y Nominaplus.</p>
+          </div>
+        </article>
+        <article class="course">
+          <span class="course__year">2003 – 2006</span>
+          <div class="course__item">
+            <h3>Curso de Agente de Viajes</h3>
+            <p class="course__school">Formatik · 2006</p>
+          </div>
+          <div class="course__item">
+            <h3>Administración y Finanzas</h3>
+            <p class="course__school">Teide · 2003 – 2005</p>
+          </div>
+        </article>
+      </div>
+
+      <p class="languages"><strong>Idiomas:</strong> Inglés, nivel intermedio</p>
+    </section>
+
+    <!-- ========== LLAMADA A LA ACCIÓN ========== -->
+    <section class="cta" id="contacto">
+      <h2>¿Buscas una desarrolladora junior<br>con ganas de aprender?</h2>
+      <p>Experiencia real trabajando en equipo y muchas ganas de seguir creciendo. Hablemos.</p>
+      <a href="mailto:garridoperagoncristina@gmail.com" class="btn btn--light">Escríbeme <span aria-hidden="true">→</span></a>
+    </section>
+
+  </main>
+
+  <!-- ========== PIE ========== -->
+  <footer class="footer">
+    <div class="footer__top">
+      <ul class="footer__links">
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#tecnologias">Tecnologías</a></li>
+        <li><a href="#experiencia">Experiencia</a></li>
+        <li><a href="#formacion">Formación</a></li>
+      </ul>
+      <a href="mailto:garridoperagoncristina@gmail.com" class="footer__mail">garridoperagoncristina@gmail.com</a>
+    </div>
+
+    <div class="footer__social">
+      <!-- PENDIENTE: poner aquí las direcciones reales de GitHub y LinkedIn -->
+      <a href="#" target="_blank" rel="noopener">GitHub ↗</a>
+      <a href="#" target="_blank" rel="noopener">LinkedIn ↗</a>
+      <span>Madrid</span>
+    </div>
+
+    <p class="footer__brand" aria-hidden="true">Cristina Garrido</p>
+    <p class="footer__copy">© 2026 Cristina Garrido</p>
+  </footer>
+
+</body>
+</html>

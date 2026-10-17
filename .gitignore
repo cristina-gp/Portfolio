@@ -1,0 +1,20 @@
+# Dependencias (el portfolio no usa build step, pero se previene por si se anaden)
+node_modules/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+*.swp
+
+# Registros y temporales
+*.log
+npm-debug.log*
+
+# Entorno
+.env
+.env.local
