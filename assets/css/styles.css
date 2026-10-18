@@ -145,6 +145,7 @@ ul { list-style: none; }
   font-weight: 800;
   letter-spacing: -.04em;
   margin-bottom: 1.5rem;
+  color: pink;
 }
 .hero__subtitle {
   font-size: clamp(1.25rem, 2.2vw, 1.7rem);
@@ -153,6 +154,7 @@ ul { list-style: none; }
   letter-spacing: -.01em;
   max-width: 32rem;
   margin-bottom: 1rem;
+  
 }
 .hero__intro { max-width: 30rem; font-size: 1.1rem; opacity: .95; margin-bottom: 2rem; }
 .hero__actions { display: flex; flex-wrap: wrap; align-items: center; gap: .8rem; }
